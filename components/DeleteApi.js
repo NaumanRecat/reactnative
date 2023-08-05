@@ -48,7 +48,7 @@ const DeleteApi = () => {
                 }}>
                 <Button title="Delete" onPress={(item)=>PerformDeleteApi(item.id)}/>
                 </View>
-                <Button title="Update"/>
+                <Button title="Update now"/>
             </View>
             </View>) : null}
         </View>
