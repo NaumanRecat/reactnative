@@ -3,7 +3,7 @@ import { Text, View, Modal, Button } from 'react-native';
 import {widthPercentageToDP as w, heightPercentageToDP as h} from 'react-native-responsive-screen';
 
 
-const DeleteApi = () => {
+const Populatedata = () => {
 
     const [data, setData] = useState([]);
     const [CloseModal, setCloseModal] = useState(false);
@@ -89,4 +89,4 @@ const UserModal =(props)=>{
         </View>
     )
 }
-export default DeleteApi
+export default Populatedata
