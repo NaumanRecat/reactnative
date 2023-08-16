@@ -19,11 +19,13 @@ import PostApiFormValidation from "./components/PostApiFormValidation";
 import ListApi from "./components/ListApi";
 import DeleteApi from "./components/DeleteApi";
 import Populatedata from "./components/Populatedata";
+import PutApi from "./components/PutApi";
 
 const App=()=>{
   
   return(
-    <Populatedata/>
+    <PutApi/>
+    // <Populatedata/>
     // <DeleteApi/>
     // <ListApi/>
     // <PostApiFormValidation/>
