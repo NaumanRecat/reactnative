@@ -21,11 +21,13 @@ import DeleteApi from "./components/DeleteApi";
 import Populatedata from "./components/Populatedata";
 import PutApi from "./components/PutApi";
 import SearchApi from "./components/SearchApi";
+import UseReff from './components/UseReff';
 
 const App=()=>{
   
   return(
-    <SearchApi/>
+    <UseReff/>
+    // <SearchApi/>
     // <PutApi/>
     // <Populatedata/>
     // <DeleteApi/>
