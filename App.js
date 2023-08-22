@@ -20,11 +20,13 @@ import ListApi from "./components/ListApi";
 import DeleteApi from "./components/DeleteApi";
 import Populatedata from "./components/Populatedata";
 import PutApi from "./components/PutApi";
+import SearchApi from "./components/SearchApi";
 
 const App=()=>{
   
   return(
-    <PutApi/>
+    <SearchApi/>
+    // <PutApi/>
     // <Populatedata/>
     // <DeleteApi/>
     // <ListApi/>
